@@ -15,12 +15,12 @@ fetch('https://assignment-11-server-blue-rho.vercel.app/gelery')
 },[])
 
    return (
-      <div className='my-16 '>
+      <div className='my-6 md:my-16 '>
 
 
-         <h1 className="text-4xl font-bold text-center text-primary mb-4">Toys Gallery</h1>
-         <p className="text-lg text-center mb-8 px-6 sm:px-10">
-            Welcome to our Toy Gallery, where you'll find a curated selection of the most popular toys from our shop. Each toy is carefully chosen to provide endless fun and entertainment for children of all ages. From exciting cars and action figures to cuddly plush companions, our gallery showcases a wide variety of toys that are loved by kids everywhere.
+         <h1 className="text-2xl md:text-4xl font-bold text-center text-primary mb-1 md:mb-4">Toys Gallery</h1>
+         <p className="text-lg text-center md:mb-8 mb-2 px-6 sm:px-10">
+            Welcome to our Toy Gallery, 
          </p>
 
          <div className=" md:grid grid-cols-3 gap-4">

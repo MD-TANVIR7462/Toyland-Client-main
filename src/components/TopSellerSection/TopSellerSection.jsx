@@ -23,8 +23,8 @@ const TopSellersSection = () => {
    <div className="py-10">
    
    <div className="container mx-auto px-4">
-     <h2 className="text-3xl font-bold mb-6 text-primary text-center ">Top Sellers</h2>
-     <p className='text-center text-indigo-100 mb-8 font-bold text-base'>Those are The Top sellers Of this Weak</p>
+     <h2 className="text-2xl md:text-3xl font-bold mb-2 md:mb-6 text-primary text-center ">Top Sellers</h2>
+     <p className='text-center text-indigo-100 mb-3 md:mb-8 font-semibold pt-2 md:pt-0 text-sm md:text-base'>Those are The Top sellers Of this Weak</p>
      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:h-[300px] gap-6">
        {sellers.map((seller, index) => (
          <div key={index} className="bg-white rounded-lg shadow-lg p-6 transition duration-300 ease-in-out transform hover:scale-105">

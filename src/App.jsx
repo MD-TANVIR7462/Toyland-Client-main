@@ -7,12 +7,12 @@ const App = () => {
   return (
     <div className='bg-[#1f1f38]'>
       <Nav></Nav>
-    <main className='w-11/12 mx-auto'>
+    <main className='w-[95%] md:w-11/12 mx-auto'>
     <Outlet></Outlet>
     </main>
-     <div>
+   
      <Footer></Footer>
-     </div>
+     
     </div>
   );
 };

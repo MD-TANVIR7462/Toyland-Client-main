@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return (
-    <div className="hero min-h-[720px] bg-base-100">
+    <div className="hero py-6 md:py-0 md:min-h-[720px] bg-base-100">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src="https://i.ibb.co/BwTM2P3/istockphoto-1182187147-612x612.jpg"
@@ -12,15 +12,14 @@ const Banner = () => {
           className="max-w-2xl transition-transform hover:scale-105 rounded-lg shadow-3xl hero-overlay opacity-95"
         />
         <div className="flex flex-col justify-center">
-          <h1 className="text-5xl font-bold">BEST TOYS FOR YOUR KIDS!</h1>
-          <p className="py-6">
+          <h1 className="text-xl text-center md:text-start md:mt-4 mt-2  md:text-5xl font-bold ">BEST TOYS FOR YOUR KIDS!</h1>
+          <p className="py-2 text-sm text-center md:text-start md:text-base md:py-6">
             There’s just something about all of the different toys that makes me feel alive. After all, playing with toys
             is one of the best ways to spend my free time. We ended up buying a few things, but we didn’t buy anything
-            very big or expensive. I thought that the prices were really fair for what you get. Overall, I had a great
-            time at the toy store.
+            very big or expensive.
           </p>
-          <Link to="/" className="inline-block">
-            <button className="inline-flex items-center justify-center px-6 py-3 mt-4 text-lg font-medium transition-transform duration-300 bg-blue-500 rounded-full text-white hover:scale-105 hover:bg-indigo-500">
+          <Link to="/" className=" text-center md:text-start mt-2 inline-block">
+            <button className="inline-flex items-center justify-center  md:px-6 py-3 md:mt-4 md:text-lg font-medium transition-transform duration-300 bg-blue-500 rounded-full text-white hover:scale-105 hover:bg-indigo-500 px-2">
               Visit Shop
               <svg
                 xmlns="http://www.w3.org/2000/svg"

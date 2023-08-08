@@ -15,15 +15,15 @@ fetch('https://assignment-11-server-blue-rho.vercel.app/subcetgory')
 
 
   return (
-    <div className="py-20 ">
+    <div className="py-8 md:py-20 ">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center text-primary mb-8">Shop by Category</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center text-primary mb-2 md:mb-8">Shop by Category</h2>
         <Tabs className='text-xs md:text-base'>
           <TabList className="flex justify-center mb-6">
             {categories.map((category, index) => (
               <Tab
                 key={index}
-                className="mx-2 py-2 px-4 text-lg font-medium border-b-2 border-transparent hover:border-indigo-500 focus:outline-none text-gray-500 hover:text-indigo-500"
+                className="mx-2 md:py-2 px-4 text-sm md:text-lg pt-4 font-medium border-b-2 border-transparent hover:border-indigo-500 focus:outline-none text-gray-500 hover:text-indigo-500"
                 selectedClassName="border-indigo-500 text-indigo-500"
               >
                 {category.name}

@@ -37,15 +37,15 @@ const FeaturedSection = () => {
   }, []);
 
   const handleAddToCart = (toy) => {
-    // Handle the add to cart functionality here
+
     console.log(`Added "${toy.name}" to cart.`);
   };
 
   return (
  <div className='my-10'>
      <div className="container mx-auto px-4 ">
-      <h2 className="text-3xl font-bold mb-6 text-primary text-center">Featured Toys</h2>
-      <p className="text-center text-indigo-100 mb-8 font-bold text-base">
+      <h2 className="text-2xl md:text-3xl font-bold md:mb-6 mb-2 text-primary text-center">Featured Toys</h2>
+      <p className="text-center text-indigo-100 md:mb-8 mb-4 font-semibold md:font-bold text-sm  md:text-base">
         These toys are coming soon. Make sure you add them to your cart!
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
