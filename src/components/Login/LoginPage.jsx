@@ -36,20 +36,20 @@ const LoginPage = () => {
    };
 
 
-   const handleGoogle = () => {
-      googleCreatUSer()
-      .then((result) => {
-         const user = result.user;
-         navigate(mainlocation)
+   // const handleGoogle = () => {
+   //    googleCreatUSer()
+   //    .then((result) => {
+   //       const user = result.user;
+   //       navigate(mainlocation)
          
          
    
-      })
-         .catch((error) => {
-            const errorCode = error.code;
-            seterror(error.message)
-         });
-   }
+   //    })
+   //       .catch((error) => {
+   //          const errorCode = error.code;
+   //          seterror(error.message)
+   //       });
+   // }
 
    return (
       <div className="min-h-screen flex items-center justify-center  py-12 px-4 sm:px-6 lg:px-8">
@@ -121,12 +121,12 @@ const LoginPage = () => {
             </form>
 
             <div className="mt-3">
-               <p className='text-black font-semibold text-center pb-2 '>Or Sign Up With</p>
+               {/* <p className='text-black font-semibold text-center pb-2 '>Or Sign Up With</p> */}
 
 
-               <div className='my-2'>
+               {/* <div className='my-2'>
                   <button className='btn w-full bg-gray-100 border-none text-black  shadow-md shadow-gray-500 hover:text-black hover:bg-white ' onClick={handleGoogle}> Google</button>
-               </div>
+               </div> */}
             </div>
          </div>
       </div>
